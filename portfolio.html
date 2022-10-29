@@ -20,31 +20,38 @@
   <body>
     <!-- site header-->
     <header>
-      <nav>
+      <nav class="nav-container">
         <!-- site logo-->
-        <a href="./index.html" class="logo-header"
-          ><span class="logo-header-blue-black">Web</span>Studio</a
-        >
+        <div class="logo-header">
+          <a href="./index.html" class="logo-header-black"
+            ><span class="logo-header-blue">Web</span>Studio</a
+          >
+        </div>
         <!-- links in site header -->
         <ul class="site-nav">
-          <li><a href="./index.html" class="link">Студія</a></li>
-          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-          <li><a href="" class="link">Контакти</a></li>
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Студія</a>
+          </li>
+          <li class="nav-item">
+            <a href="./portfolio.html" class="nav-link">Портфоліо</a>
+          </li>
+          <li class="nav-item"><a href="" class="nav-link">Контакти</a></li>
+        </ul>
+
+        <!-- contacts in header -->
+        <ul class="contacts-nav">
+          <li class="contact-item">
+            <a href="mailto:info@devstudio.com" class="contact-link-header"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contact-item">
+            <a href="tel:+380961111111" class="contact-link-header"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </nav>
-      <!-- contacts in header -->
-      <ul class="contacts">
-        <li>
-          <a href="mailto:info@devstudio.com" class="contact-link-header"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="contact-link-header"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
     </header>
     <!-- main -->
     <main>

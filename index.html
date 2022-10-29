@@ -20,31 +20,38 @@
   <body>
     <!-- site header-->
     <header>
-      <nav>
+      <nav class="nav-container">
         <!-- site logo-->
-        <a href="./index.html" class="logo-header"
-          ><span class="logo-header-blue-black">Web</span>Studio</a
-        >
+        <div class="logo-header">
+          <a href="./index.html" class="logo-header-black"
+            ><span class="logo-header-blue">Web</span>Studio</a
+          >
+        </div>
         <!-- links in site header -->
         <ul class="site-nav">
-          <li><a href="./index.html" class="link">Студія</a></li>
-          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-          <li><a href="" class="link">Контакти</a></li>
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Студія</a>
+          </li>
+          <li class="nav-item">
+            <a href="./portfolio.html" class="nav-link">Портфоліо</a>
+          </li>
+          <li class="nav-item"><a href="" class="nav-link">Контакти</a></li>
+        </ul>
+
+        <!-- contacts in header -->
+        <ul class="contacts-nav">
+          <li class="contact-item">
+            <a href="mailto:info@devstudio.com" class="contact-link-header"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contact-item">
+            <a href="tel:+380961111111" class="contact-link-header"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </nav>
-      <!-- contacts in header -->
-      <ul class="contacts">
-        <li>
-          <a href="mailto:info@devstudio.com" class="contact-link-header"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="contact-link-header"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
     </header>
     <main>
       <!-- background:banner/picture/video? -->
@@ -56,35 +63,37 @@
       </section>
       <!-- company advantages -->
       <section class="section-company">
-        <ul class="company-list">
-          <li>
-            <h3 class="company-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="company-title-text">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li>
-            <h3 class="company-title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="company-title-text">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li>
-            <h3 class="company-title">ПЛАНУВАННЯ</h3>
-            <p class="company-title-text">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li>
-            <h3 class="company-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="company-title-text">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="company-list">
+            <li>
+              <h3 class="company-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="company-title-text">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li>
+              <h3 class="company-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="company-title-text">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li>
+              <h3 class="company-title">ПЛАНУВАННЯ</h3>
+              <p class="company-title-text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li>
+              <h3 class="company-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="company-title-text">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- what does the company do -->
       <section class="section-works">

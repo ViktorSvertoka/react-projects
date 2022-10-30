@@ -31,24 +31,25 @@ body {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* начало хедера */
 
 /* навигация по сайту */
 
-.nav-container {
+.container .nav {
   display: flex;
+  /* align-self: auto; */
   align-items: center;
-  border: 5px solid #f44336;
-  background: #ffffff;
   vertical-align: middle;
+  border: 5px solid #f44336;
 }
 
 /* цвет логотипа */
 
 .logo-header {
-  margin-left: 215px;
 }
 
 .logo-header-black {
@@ -72,12 +73,11 @@ body {
 }
 
 .site-nav {
+  display: flex;
   list-style: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
-  display: flex;
-  margin-left: 93px;
 }
 
 /* вариаци декорирования  */
@@ -117,7 +117,6 @@ body {
 .contacts-nav {
   display: flex;
   list-style: none;
-  margin-left: 458px;
 }
 
 .contacts-nav .contact-item:not(:last-child) {
@@ -363,7 +362,6 @@ body {
   font-size: 16px;
   line-height: 1.63;
   font-family: Roboto;
-  margin-right: 8px;
 }
 
 .button-navigation:hover,

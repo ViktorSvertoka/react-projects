@@ -26,6 +26,15 @@ body {
 
 /* начало хедера */
 
+/* навигация по сайту */
+
+.nav-container {
+  display: flex;
+  align-items: center;
+
+  background: #ffffff;
+}
+
 /* цвет логотипа */
 
 .logo-header {
@@ -50,13 +59,6 @@ body {
   line-height: 1.2;
   padding-top: 24px;
   padding-bottom: 25px;
-}
-
-/* навигация по сайту */
-
-.nav-container {
-  display: flex;
-  align-items: center;
 }
 
 .site-nav {
@@ -138,17 +140,16 @@ body {
 .section-banner {
   background: #2f303a;
   text-align: center;
-  margin-top: 0;
 }
+
 .section-banner-title {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
-  margin-top: 0;
-  margin-bottom: 40px;
-  padding-top: 200px;
-  padding-bottom: 280px;
+}
+
+.button {
 }
 
 .button-banner {
@@ -175,7 +176,6 @@ body {
 /* <!-- company advantages --> */
 
 .section-company {
-  margin-top: 0;
 }
 
 .company-list {
@@ -250,11 +250,15 @@ body {
 
 /* <!-- footer:address/contacts --> */
 
-.section-address {
+.section-address-footer {
   background: #2f303a;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2094px;
 }
 
-.logo-footer {
+.logo-footer-white {
   color: #ffffff;
   font-family: "Raleway";
   text-decoration: none;
@@ -262,23 +266,27 @@ body {
   line-height: 1.2;
 }
 
-.logo-footer-blue-white {
+.logo-footer-blue {
   color: #2196f3;
   font-family: "Raleway";
   text-decoration: none;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
-.address-list {
+.address-list-footer {
   list-style: none;
   font-size: 14px;
   line-height: 1.72;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .contact-link-footer {
   font-size: 14px;
   line-height: 1.72;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 .contact-link-footer:hover,

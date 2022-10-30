@@ -22,6 +22,15 @@ body {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.03em;
+  margin: 0;
+}
+
+/* утилита */
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* начало хедера */
@@ -32,9 +41,8 @@ body {
   display: flex;
   align-items: center;
   border: 5px solid #f44336;
-  width: 1600px;
-  height: 80px;
-  /* background: #ffffff; */
+  background: #ffffff;
+  vertical-align: middle;
 }
 
 /* цвет логотипа */
@@ -143,8 +151,6 @@ body {
   border: 5px solid #f44336;
   background: #2f303a;
   text-align: center;
-  width: 1600px;
-  height: 600px;
 }
 
 .section-banner-title {
@@ -182,7 +188,6 @@ body {
 
 .section-company {
   border: 5px solid #f44336;
-  width: 1170;
 }
 
 .company-list {
@@ -215,7 +220,6 @@ body {
 
 .section-works {
   border: 5px solid #f44336;
-  width: 1170;
 }
 
 .section-works-title {
@@ -244,8 +248,6 @@ body {
 
 .section-team {
   border: 5px solid #f44336;
-  width: 1600px;
-  height: 648px;
 }
 
 .section-title {

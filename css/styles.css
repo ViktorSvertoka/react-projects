@@ -367,7 +367,7 @@ body {
   height: 252px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-content: flex-start;
 }
 
 .logo-footer {
@@ -401,9 +401,17 @@ body {
   line-height: 1.72;
   color: #ffffff;
   text-decoration: none;
-  margin-top: 20px;
+  text-align: left;
+  /* margin-top: 20px;
   margin-right: 1154px;
   margin-bottom: 60px;
+  margin-left: 215px; */
+}
+
+.address-link-footer {
+  margin-top: 20px;
+  margin-right: 1154px;
+  margin-bottom: 9px;
   margin-left: 215px;
 }
 
@@ -412,6 +420,10 @@ body {
   line-height: 1.72;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  margin-top: 20px;
+  margin-right: 1154px;
+  margin-bottom: 9px;
+  margin-left: 215px;
 }
 
 .contact-link-footer:hover,

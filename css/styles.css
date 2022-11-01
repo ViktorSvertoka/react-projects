@@ -55,8 +55,16 @@ body {
 .nav-header {
   display: flex;
   /* align-self: auto; */
-  align-items: center;
-  vertical-align: middle;
+  /* align-items: center;
+  vertical-align: middle; */
+}
+
+.logo-header {
+  margin-left: 215px;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  width: 145px;
+  height: 31px;
 }
 
 /* цвет логотипа */
@@ -87,6 +95,9 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
+  margin-left: 93px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .nav-item {
@@ -99,8 +110,8 @@ body {
 .nav-link {
   text-decoration: none;
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
   color: #000000;
 }
 
@@ -112,6 +123,9 @@ body {
 .contact-list {
   display: flex;
   list-style: none;
+  margin-left: 344px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .contact-list .contact-item:not(:last-child) {
@@ -202,12 +216,16 @@ body {
 .company-list {
   list-style: none;
   display: flex;
+  align-items: flex-start;
+  margin-top: 94px;
+  margin-right: 215px;
+  margin-bottom: 94px;
+  margin-left: 215px;
 }
 
 /* проверить итемы */
 
 .company-item {
-  width: 270px;
   margin-right: 30px;
 }
 
@@ -219,17 +237,27 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
+  width: 270px;
+  height: 16px;
 }
 
 .company-text {
   color: #757575;
   font-size: 14px;
   line-height: 1.72;
+  width: 270px;
 }
 
 /* <!-- what does the company do --> */
 
 .works {
+  width: 1170px;
+  height: 386px;
+  /* margin-top: 118px;
+  margin-right: 215px;
+  margin-bottom: 94px;
+  margin-left: 215px;
+  align-items: center; */
 }
 
 .works-title {
@@ -237,12 +265,23 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-top: 118px;
+  margin-right: 617px;
+  margin-bottom: 50px;
+  margin-left: 617px;
+  width: 366px;
+  height: 42px;
 }
 
 .works-list {
   color: #212121;
   list-style: none;
   display: flex;
+  align-items: center;
+  /* margin-top: 118px;
+  margin-right: 617px;
+  margin-bottom: 50px;
+  margin-left: 617px; */
 }
 
 .works-item {
@@ -254,18 +293,36 @@ body {
   margin: 0;
 }
 
+.works-item:first-child {
+  margin-left: 215px;
+}
+
 /* <!-- our team --> */
+
+.team {
+  width: 1600px;
+  height: 648px;
+}
 
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-top: 94px;
+  margin-right: 668px;
+  margin-bottom: 50px;
+  margin-left: 668px;
 }
 
 .team-list {
   list-style: none;
   display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 215px;
+  margin-bottom: 94px;
+  margin-left: 215px;
 }
 
 .team-item {
@@ -279,6 +336,10 @@ body {
 .team-item:last-child {
   margin: 0;
 }
+
+/* .team-item:first-child {
+  margin-left: 215px;
+} */
 
 .team-specialist {
   font-weight: 500;
@@ -304,6 +365,18 @@ body {
   background: #2f303a;
   width: 1600px;
   height: 252px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo-footer {
+  width: 145px;
+  height: 31px;
+  margin-top: 60px;
+  margin-right: 1240px;
+  margin-bottom: 20px;
+  margin-left: 215px;
 }
 
 .logo-footer-white {
@@ -328,6 +401,10 @@ body {
   line-height: 1.72;
   color: #ffffff;
   text-decoration: none;
+  margin-top: 20px;
+  margin-right: 1154px;
+  margin-bottom: 60px;
+  margin-left: 215px;
 }
 
 .contact-link-footer {

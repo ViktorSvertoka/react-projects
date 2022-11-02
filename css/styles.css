@@ -34,6 +34,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   align-items: center;
+  align-content: center;
 }
 
 .section {
@@ -304,6 +305,8 @@ body {
   width: 1600px;
   height: 648px;
   background: #f5f4fa;
+  margin: 0;
+  padding: 0;
 }
 
 .team-title {
@@ -315,18 +318,16 @@ body {
   margin-right: 668px;
   margin-bottom: 50px;
   margin-left: 668px;
-  /* padding: 94px 668px 50px 668px; */
+}
+
+.team-box {
+  margin: 50px 215px 94px 215px;
 }
 
 .team-list {
   list-style: none;
   display: flex;
   align-items: center;
-  margin-top: 50px;
-  margin-right: 215px;
-  margin-bottom: 94px;
-  margin-left: 215px;
-  /* padding: 50px 215px 94px 215px; */
 }
 
 .team-item {

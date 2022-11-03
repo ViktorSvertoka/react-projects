@@ -239,7 +239,6 @@ body {
   font-size: 14px;
   line-height: 1.15;
   width: 270px;
-  height: 16px;
 }
 
 .company-text {
@@ -254,11 +253,8 @@ body {
 .works {
   width: 1170px;
   height: 386px;
-  /* margin-top: 118px;
-  margin-right: 215px;
-  margin-bottom: 94px;
-  margin-left: 215px;
-  align-items: center; */
+  margin: 0;
+  padding: 0;
 }
 
 .works-title {
@@ -267,16 +263,8 @@ body {
   line-height: 1.17;
   text-align: center;
   align-items: center;
-  /* padding-top: 94px; */
-  /* padding-right: 617px; */
-  /* padding-bottom: 50px; */
-  /* padding-left: 617px; */
-  margin-top: 94px;
-  margin-right: 617px;
-  margin-bottom: 50px;
   margin-left: 617px;
-  width: 366px;
-  height: 42px;
+  padding: 0;
 }
 
 .works-list {
@@ -284,18 +272,9 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
-  /* margin-top: 118px;
-  margin-right: 215px;
-  margin-bottom: 50px;
-  margin-left: 215px; */
-  /* padding-top: 94px; */
-  /* padding-right: 215px; */
-  /* padding-bottom: 50px; */
-  /* padding-left: 215px; */
 }
 
 .works-item {
-  width: 370px;
   margin-right: 30px;
 }
 
@@ -328,9 +307,11 @@ body {
 .team-list {
   list-style: none;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  justify-content: center;
   /* align-items: flex-start */
-  margin: 50px 0 94px 0px;
+  /* margin: 50px 0 94px 0px; */
+  align-content: center;
 }
 
 .team-item {

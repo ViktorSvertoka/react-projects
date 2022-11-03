@@ -29,17 +29,20 @@ body {
 
 .container {
   width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   padding-left: 15px;
   padding-right: 15px;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
   align-content: center;
 }
 
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  margin: 0;
 }
 
 /* начало хедера */
@@ -181,9 +184,9 @@ body {
   width: 696px;
   height: 120px;
   margin-top: 200px;
-  margin-right: 452px;
+  /* margin-right: 452px; */
   margin-bottom: 30px;
-  margin-left: 452px;
+  /* margin-left: 452px; */
 }
 
 .banner-button {
@@ -220,9 +223,9 @@ body {
   display: flex;
   align-items: flex-start;
   margin-top: 94px;
-  margin-right: 215px;
+  /* margin-right: 215px; */
   margin-bottom: 94px;
-  margin-left: 215px;
+  /* margin-left: 215px; */
 }
 
 /* проверить итемы */
@@ -268,9 +271,9 @@ body {
   line-height: 1.17;
   text-align: center;
   margin-top: 118px;
-  margin-right: 617px;
+  /* margin-right: 617px; */
   margin-bottom: 50px;
-  margin-left: 617px;
+  /* margin-left: 617px; */
   width: 366px;
   height: 42px;
 }
@@ -305,8 +308,6 @@ body {
   width: 1600px;
   height: 648px;
   background: #f5f4fa;
-  margin: 0;
-  padding: 0;
 }
 
 .team-title {
@@ -314,20 +315,16 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  margin-top: 94px;
-  margin-right: 668px;
-  margin-bottom: 50px;
-  margin-left: 668px;
 }
 
 .team-box {
-  margin: 50px 215px 94px 215px;
 }
 
 .team-list {
   list-style: none;
   display: flex;
   align-items: center;
+  margin: 50px 0 94px 0px;
 }
 
 .team-item {

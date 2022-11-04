@@ -25,6 +25,10 @@ body {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 /* утилита */
 
 .container {
@@ -38,6 +42,8 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* начало хедера */
@@ -50,13 +56,11 @@ body {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #ececec;
+  outline: 5px solid tomato;
 }
 
 .nav-header {
   display: flex;
-  /* align-self: auto; */
-  /* align-items: center;
-  vertical-align: middle; */
 }
 
 .logo-header {
@@ -91,7 +95,6 @@ body {
 
 .nav-list {
   display: flex;
-  list-style: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
@@ -110,8 +113,6 @@ body {
 .nav-link {
   text-decoration: none;
   display: block;
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
   color: #000000;
 }
 
@@ -122,7 +123,6 @@ body {
 
 .contact-list {
   display: flex;
-  list-style: none;
   margin-left: 344px;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -159,10 +159,10 @@ body {
   width: 1600px;
   height: 600px;
   background: #2f303a;
-
   display: flex;
   flex-direction: column;
   align-items: center;
+  outline: 5px solid tomato;
 }
 
 .banner-title {
@@ -170,27 +170,20 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
-  /* padding-top: 200px;
-  padding-bottom: 280px;
-  padding-left: 452px;
-  padding-right: 452px; */
   text-align: center;
   text-transform: uppercase;
   width: 696px;
-  height: 120px;
+  /* height: 120px; */
   margin-top: 200px;
-  /* margin-right: 452px; */
   margin-bottom: 30px;
-  /* margin-left: 452px; */
 }
 
 .banner-button {
   width: 216px;
-  height: 50px;
+  /* height: 50px; */
   text-align: center;
   border-radius: 4px;
   padding: 10px 32px;
-
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   background-color: #2196f3;
@@ -213,14 +206,17 @@ body {
 
 /* <!-- company advantages --> */
 
+.company-box {
+  outline: 5px solid tomato;
+  width: 1170px;
+  /* height: 98px; */
+  margin: 94px 215px;
+}
+
 .company-list {
-  list-style: none;
   display: flex;
-  padding-top: 94px;
-  padding-right: 215px;
-  padding-bottom: 94px;
-  padding-left: 215px;
   align-items: flex-start;
+  padding: 0;
 }
 
 .company-list li {
@@ -250,11 +246,19 @@ body {
 
 /* <!-- what does the company do --> */
 
+/* .works-section {
+  outline: 5px solid tomato;
+  width: 1600px;
+  height: 600px;
+} */
+
 .works {
   width: 1170px;
-  height: 386px;
-  margin: 0;
-  padding: 0;
+  /* height: 386px; */
+  /* display: flex;
+  align-items: center; */
+  outline: 5px solid tomato;
+  margin: 94px 215px;
 }
 
 .works-title {
@@ -262,14 +266,11 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  align-items: center;
-  margin-left: 617px;
-  padding: 0;
 }
 
 .works-list {
   color: #212121;
-  list-style: none;
+  /* list-style: none; */
   display: flex;
   align-items: center;
 }
@@ -292,6 +293,7 @@ body {
   width: 1600px;
   height: 648px;
   background: #f5f4fa;
+  outline: 5px solid tomato;
 }
 
 .team-title {
@@ -305,12 +307,8 @@ body {
 }
 
 .team-list {
-  list-style: none;
+  /* list-style: none; */
   display: flex;
-  /* align-items: center; */
-  justify-content: center;
-  /* align-items: flex-start */
-  /* margin: 50px 0 94px 0px; */
   align-content: center;
 }
 
@@ -358,6 +356,7 @@ body {
   display: flex;
   flex-direction: column;
   align-content: flex-start;
+  outline: 5px solid tomato;
 }
 
 .logo-footer {
@@ -386,7 +385,7 @@ body {
 }
 
 .address-list-footer {
-  list-style: none;
+  /* list-style: none; */
   font-size: 14px;
   line-height: 1.72;
   color: #ffffff;
@@ -434,7 +433,7 @@ body {
 /* <!--web page filter--> */
 
 .button-list {
-  list-style: none;
+  /* list-style: none; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -479,6 +478,7 @@ body {
   width: 1170px;
   height: 1360px;
   margin: 94px 215px;
+  outline: 5px solid tomato;
 }
 
 .gallery-list {
@@ -486,7 +486,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   gap: 30px;
-  list-style: none;
+  /* list-style: none; */
   margin: 0;
   padding: 0;
 }

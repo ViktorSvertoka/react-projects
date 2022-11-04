@@ -26,8 +26,15 @@ body {
   width: 1600px;
 }
 
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* утилита */
@@ -40,31 +47,28 @@ ul {
   margin-left: auto;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 /* начало хедера */
 
 /* навигация по сайту */
 
 .nav {
-  width: 1600px;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #ececec;
-  outline: 5px solid tomato;
+  /* display: flex;
+  align-items: center; */
+  /* border-bottom: 1px solid #ececec;
+  outline: 5px solid tomato; */
 }
 
 .nav-header {
   display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+  /* outline: 5px solid tomato; */
 }
 
 .logo-header {
-  margin-left: 215px;
+  /* margin-left: 215px;
   margin-top: 24px;
-  margin-bottom: 25px;
+  margin-bottom: 25px; */
   width: 145px;
 }
 
@@ -90,7 +94,7 @@ ul {
   padding-bottom: 25px;
 }
 
-.nav-list {
+.nav-list-header {
   display: flex;
   font-weight: 500;
   font-size: 14px;
@@ -100,33 +104,32 @@ ul {
   margin-bottom: 32px;
 }
 
-.nav-item {
+.nav-item-header {
 }
 
-.nav-item:not(:last-child) {
+.nav-item-header:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav-link {
+.nav-link-header {
   text-decoration: none;
   display: block;
   color: #000000;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-link-header:hover,
+.nav-link-header:focus {
   color: var(--accent-color);
 }
 
-.contact-list {
+.contact-list-header {
   display: flex;
   margin-left: 344px;
   margin-top: 32px;
   margin-bottom: 32px;
-  padding: 0;
 }
 
-.contact-list .contact-item:not(:last-child) {
+.contact-list-header .contact-item-header:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -154,7 +157,6 @@ ul {
 /* <!-- background:banner/picture/video? --> */
 
 .banner {
-  width: 1600px;
   background: #2f303a;
   display: flex;
   flex-direction: column;
@@ -170,6 +172,8 @@ ul {
   text-align: center;
   text-transform: uppercase;
   width: 696px;
+  margin-left: 452px;
+  margin-right: 452px;
   margin-top: 200px;
   margin-bottom: 30px;
 }
@@ -203,22 +207,15 @@ ul {
 
 .company-box {
   outline: 5px solid tomato;
-  width: 1170px;
-  margin: 94px 215px;
 }
 
 .company-list {
   display: flex;
   align-items: flex-start;
-  padding: 0;
-  margin: 0;
-}
-
-.company-list li {
-  margin-right: 30px;
 }
 
 .company-item {
+  margin-right: 30px;
 }
 
 .company-item:last-child {
@@ -242,9 +239,8 @@ ul {
 /* <!-- what does the company do --> */
 
 .works {
-  width: 1170px;
   outline: 5px solid tomato;
-  margin: 94px 215px;
+  /* margin: 94px 215px; */
 }
 
 .works-title {
@@ -252,15 +248,14 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  margin: 0 0 50px 0;
+  /* width: 366px; */
+  /* margin: 0 0 50px 0; */
 }
 
 .works-list {
   color: #212121;
   display: flex;
   align-items: center;
-  padding: 0;
-  margin: 0;
 }
 
 .works-item {
@@ -276,9 +271,7 @@ ul {
 
 /* <!-- our team --> */
 
-.team {
-  width: 1170px;
-  margin: 94px 215px;
+.team-box {
   background: #f5f4fa;
   outline: 5px solid tomato;
 }
@@ -288,17 +281,16 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  padding: 0;
-  margin: 0 0 50px 0;
+  /* width: 264px; */
+  /* margin: 94px 668px 50px 668px; */
 }
 
-.team-box {
+.team {
 }
 
 .team-list {
   display: flex;
-  align-content: center;
-  padding: 0;
+  align-items: center;
 }
 
 .team-item {
@@ -340,7 +332,7 @@ ul {
 
 .address-footer {
   background: #2f303a;
-  width: 1600px;
+  /* width: 1600px; */
   display: flex;
   flex-direction: column;
   align-content: flex-start;
@@ -381,7 +373,6 @@ ul {
   margin-right: 1154px;
   margin-bottom: 60px;
   margin-left: 215px;
-  padding: 0;
 }
 
 .address-link-footer {
@@ -460,8 +451,8 @@ ul {
 /* <!--gallery--> */
 
 .gallery-box {
-  width: 1170px;
-  margin: 94px 215px;
+  /* width: 1170px; */
+  /* margin: 94px 215px; */
   outline: 5px solid tomato;
 }
 
@@ -470,8 +461,6 @@ ul {
   flex-wrap: wrap;
   align-items: center;
   gap: 30px;
-  margin: 0;
-  padding: 0;
 }
 
 .gallery-item {
@@ -479,20 +468,18 @@ ul {
   flex-basis: calc((100% - 60px) / 3);
   background: var(--primary-white-color);
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 .gallery-img {
   display: block;
-  margin: 0;
+  /* margin: 0; */
 }
 
 .gallery-border {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   background: var(--primary-white-color);
   border: 1px solid #eeeeee;
-  margin: 0;
+  /* margin: 0; */
 }
 
 .gallery-title {

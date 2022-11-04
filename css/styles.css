@@ -23,6 +23,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.03em;
   margin: 0;
+  width: 1600px;
 }
 
 ul {
@@ -42,8 +43,6 @@ ul {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 /* начало хедера */
@@ -52,7 +51,6 @@ ul {
 
 .nav {
   width: 1600px;
-  height: 80px;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #ececec;
@@ -68,7 +66,6 @@ ul {
   margin-top: 24px;
   margin-bottom: 25px;
   width: 145px;
-  height: 31px;
 }
 
 /* цвет логотипа */
@@ -84,7 +81,7 @@ ul {
 }
 
 .logo-header-blue {
-  color: #2196f3;
+  color: var(--accent-color);
   font-family: "Raleway";
   text-decoration: none;
   font-size: 26px;
@@ -118,7 +115,7 @@ ul {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .contact-list {
@@ -141,12 +138,12 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
-  color: #757575;
+  color: var(--title-text-color);
 }
 
 .contact-link-header:hover,
 .contact-link-header:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* окончание хедара */
@@ -157,7 +154,6 @@ ul {
 
 .banner {
   width: 1600px;
-  height: 600px;
   background: #2f303a;
   display: flex;
   flex-direction: column;
@@ -166,28 +162,26 @@ ul {
 }
 
 .banner-title {
-  color: #ffffff;
+  color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
   text-align: center;
   text-transform: uppercase;
   width: 696px;
-  /* height: 120px; */
   margin-top: 200px;
   margin-bottom: 30px;
 }
 
 .banner-button {
   width: 216px;
-  /* height: 50px; */
   text-align: center;
   border-radius: 4px;
   padding: 10px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -209,7 +203,6 @@ ul {
 .company-box {
   outline: 5px solid tomato;
   width: 1170px;
-  /* height: 98px; */
   margin: 94px 215px;
 }
 
@@ -238,7 +231,7 @@ ul {
 }
 
 .company-text {
-  color: #757575;
+  color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.72;
   width: 270px;
@@ -246,17 +239,8 @@ ul {
 
 /* <!-- what does the company do --> */
 
-/* .works-section {
-  outline: 5px solid tomato;
-  width: 1600px;
-  height: 600px;
-} */
-
 .works {
   width: 1170px;
-  /* height: 386px; */
-  /* display: flex;
-  align-items: center; */
   outline: 5px solid tomato;
   margin: 94px 215px;
 }
@@ -270,9 +254,9 @@ ul {
 
 .works-list {
   color: #212121;
-  /* list-style: none; */
   display: flex;
   align-items: center;
+  padding: 0;
 }
 
 .works-item {
@@ -284,14 +268,13 @@ ul {
 }
 
 .works-item:first-child {
-  margin-left: 215px;
 }
 
 /* <!-- our team --> */
 
 .team {
-  width: 1600px;
-  height: 648px;
+  width: 1170px;
+  margin: 94px 215px;
   background: #f5f4fa;
   outline: 5px solid tomato;
 }
@@ -307,9 +290,9 @@ ul {
 }
 
 .team-list {
-  /* list-style: none; */
   display: flex;
   align-content: center;
+  padding: 0;
 }
 
 .team-item {
@@ -318,7 +301,7 @@ ul {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  background: #ffffff;
+  background: var(--primary-white-color);
 }
 
 .team-item:last-child {
@@ -340,7 +323,7 @@ ul {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  color: #757575;
+  color: var(--title-text-color);
 }
 
 /* окончание мейна */
@@ -352,7 +335,6 @@ ul {
 .address-footer {
   background: #2f303a;
   width: 1600px;
-  height: 252px;
   display: flex;
   flex-direction: column;
   align-content: flex-start;
@@ -369,7 +351,7 @@ ul {
 }
 
 .logo-footer-white {
-  color: #ffffff;
+  color: var(--primary-white-color);
   font-family: "Raleway";
   text-decoration: none;
   font-size: 26px;
@@ -377,7 +359,7 @@ ul {
 }
 
 .logo-footer-blue {
-  color: #2196f3;
+  color: var(--accent-color);
   font-family: "Raleway";
   text-decoration: none;
   font-size: 26px;
@@ -385,16 +367,11 @@ ul {
 }
 
 .address-list-footer {
-  /* list-style: none; */
   font-size: 14px;
   line-height: 1.72;
-  color: #ffffff;
+  color: var(--primary-white-color);
   text-decoration: none;
   text-align: left;
-  /* margin-top: 20px;
-  margin-right: 1154px;
-  margin-bottom: 60px;
-  margin-left: 215px; */
 }
 
 .address-link-footer {
@@ -402,7 +379,7 @@ ul {
   margin-right: 1154px;
   margin-bottom: 9px;
   margin-left: 215px;
-  color: #ffffff;
+  color: var(--primary-white-color);
   text-decoration: none;
   text-align: left;
   white-space: nowrap;
@@ -421,7 +398,7 @@ ul {
 
 .contact-link-footer:hover,
 .contact-link-footer:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* окончание футера */
@@ -433,7 +410,6 @@ ul {
 /* <!--web page filter--> */
 
 .button-list {
-  /* list-style: none; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -476,7 +452,6 @@ ul {
 
 .gallery-box {
   width: 1170px;
-  height: 1360px;
   margin: 94px 215px;
   outline: 5px solid tomato;
 }
@@ -486,7 +461,6 @@ ul {
   flex-wrap: wrap;
   align-items: center;
   gap: 30px;
-  /* list-style: none; */
   margin: 0;
   padding: 0;
 }
@@ -494,7 +468,7 @@ ul {
 .gallery-item {
   /* width: calc((100% - 2 * 30px) / 3); */
   flex-basis: calc((100% - 60px) / 3);
-  background: #ffffff;
+  background: var(--primary-white-color);
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -507,7 +481,7 @@ ul {
 
 .gallery-border {
   box-sizing: border-box;
-  background: #ffffff;
+  background: var(--primary-white-color);
   border: 1px solid #eeeeee;
   margin: 0;
 }
@@ -525,7 +499,7 @@ ul {
 .gallery-text {
   font-size: 16px;
   line-height: 1.88;
-  color: #757575;
+  color: var(--title-text-color);
   margin-left: 24px;
   margin-top: 4px;
   margin-bottom: 20px;

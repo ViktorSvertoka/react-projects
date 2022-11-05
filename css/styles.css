@@ -61,13 +61,14 @@ ul {
 /* навигация по сайту */
 
 .nav-header {
+  width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
   border-bottom: 1px solid #ececec;
   outline: 5px solid tomato;
 }
 
 .nav-box {
-  width: 1600px;
-  height: 80px;
   display: flex;
   align-items: center;
 }
@@ -166,13 +167,14 @@ ul {
 .banner-hero {
   background: #2f303a;
   text-align: center;
-  padding: 200px;
-
+  /* padding: 200px; */
+  width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
   outline: 5px solid tomato;
+  margin-bottom: 0px;
 }
 .banner-box {
-  /* width: 1600px;
-  height: 600px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -254,7 +256,6 @@ ul {
 
 .works {
   outline: 5px solid tomato;
-  /* margin: 94px 215px; */
 }
 
 .works-title {
@@ -262,8 +263,6 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  /* width: 366px; */
-  /* margin: 0 0 50px 0; */
 }
 
 .works-list {
@@ -287,6 +286,8 @@ ul {
 
 .team-box {
   width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
   height: 648px;
   background: #f5f4fa;
   outline: 5px solid tomato;
@@ -297,17 +298,17 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  /* width: 264px; */
-  margin: 94px 668px 50px 668px;
+  margin: 0px 668px 50px 668px;
+  padding-top: 94px;
 }
 
 .team {
-  margin: 50px 215px 94px 215px;
 }
 
 .team-list {
   display: flex;
   align-items: center;
+  margin: 50px 215px 94px 215px;
 }
 
 .team-item {
@@ -322,10 +323,6 @@ ul {
 .team-item:last-child {
   margin: 0;
 }
-
-/* .team-item:first-child {
-  margin-left: 215px;
-} */
 
 .team-specialist {
   font-weight: 500;
@@ -349,7 +346,8 @@ ul {
 
 .address-footer {
   width: 1600px;
-  height: 252px;
+  margin-right: auto;
+  margin-left: auto;
   background: #2f303a;
   display: flex;
   flex-direction: column;
@@ -469,8 +467,6 @@ ul {
 /* <!--gallery--> */
 
 .gallery-box {
-  /* width: 1170px; */
-  /* margin: 94px 215px; */
   outline: 5px solid tomato;
 }
 
@@ -490,14 +486,11 @@ ul {
 
 .gallery-img {
   display: block;
-  /* margin: 0; */
 }
 
 .gallery-border {
-  /* box-sizing: border-box; */
   background: var(--primary-white-color);
   border: 1px solid #eeeeee;
-  /* margin: 0; */
 }
 
 .gallery-title {

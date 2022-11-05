@@ -31,7 +31,6 @@ body {
   font-size: 16px;
   letter-spacing: 0.03em;
   margin: 0;
-  /* width: 1600px; */
 }
 
 .section {
@@ -62,12 +61,15 @@ ul {
 /* навигация по сайту */
 
 .nav-header {
+  border-bottom: 1px solid #ececec;
+  outline: 5px solid tomato;
+}
+
+.nav-box {
   width: 1600px;
   height: 80px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
-  outline: 5px solid tomato;
 }
 
 .logo-header {
@@ -161,12 +163,19 @@ ul {
 
 /* <!-- background:banner/picture/video? --> */
 
-.banner {
+.banner-hero {
   background: #2f303a;
+  text-align: center;
+  padding: 200px;
+
+  outline: 5px solid tomato;
+}
+.banner-box {
+  /* width: 1600px;
+  height: 600px; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  outline: 5px solid tomato;
 }
 
 .banner-title {
@@ -197,9 +206,9 @@ ul {
   line-height: 1.88;
   font-family: Roboto;
   margin-top: 30px;
-  /* margin-right: 692px; */
+  margin-right: 692px;
   margin-bottom: 200px;
-  /* margin-left: 692px; */
+  margin-left: 692px;
 }
 
 /* .button-banner:hover,
@@ -277,6 +286,8 @@ ul {
 /* <!-- our team --> */
 
 .team-box {
+  width: 1600px;
+  height: 648px;
   background: #f5f4fa;
   outline: 5px solid tomato;
 }
@@ -287,10 +298,11 @@ ul {
   line-height: 1.17;
   text-align: center;
   /* width: 264px; */
-  /* margin: 94px 668px 50px 668px; */
+  margin: 94px 668px 50px 668px;
 }
 
 .team {
+  margin: 50px 215px 94px 215px;
 }
 
 .team-list {
@@ -336,8 +348,9 @@ ul {
 /* <!-- footer:address/contacts --> */
 
 .address-footer {
+  width: 1600px;
+  height: 252px;
   background: #2f303a;
-  /* width: 1600px; */
   display: flex;
   flex-direction: column;
   align-content: flex-start;

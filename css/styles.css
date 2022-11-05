@@ -1,4 +1,12 @@
-/* страница студия */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
 :root {
   --primary-text-color: #212121;
@@ -26,7 +34,7 @@ body {
   width: 1600px;
 }
 
-section {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -47,28 +55,23 @@ ul {
   margin-left: auto;
 }
 
+/* страница студия */
+
 /* начало хедера */
 
 /* навигация по сайту */
-
-.nav {
-  /* display: flex;
-  align-items: center; */
-  /* border-bottom: 1px solid #ececec;
-  outline: 5px solid tomato; */
-}
 
 .nav-header {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #ececec;
-  /* outline: 5px solid tomato; */
+  outline: 5px solid tomato;
 }
 
 .logo-header {
-  /* margin-left: 215px;
+  margin-left: 215px;
   margin-top: 24px;
-  margin-bottom: 25px; */
+  margin-bottom: 25px;
   width: 145px;
 }
 

@@ -38,6 +38,10 @@ body {
   padding-bottom: 94px;
 }
 
+.no-padding {
+  padding-bottom: 0;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -164,17 +168,19 @@ ul {
 
 /* <!-- background:banner/picture/video? --> */
 
-.banner-hero {
-  background: #2f303a;
-  text-align: center;
-  /* padding: 200px; */
+.hero {
   width: 1600px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  /* outline: 5px solid tomato; */
-  margin-bottom: 0px;
 }
+
 .banner-box {
+  background: #2f303a;
+  text-align: center;
+  width: 1600px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -263,6 +269,8 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .works-list {

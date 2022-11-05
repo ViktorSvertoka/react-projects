@@ -33,13 +33,17 @@ body {
   margin: 0;
 }
 
+header {
+  background-color: var(--primary-white-color);
+}
+
+footer {
+  background: #2f303a;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.no-padding {
-  padding-bottom: 0;
 }
 
 ul {
@@ -168,6 +172,10 @@ ul {
 
 /* <!-- background:banner/picture/video? --> */
 
+.hero-bg {
+  background: #2f303a;
+}
+
 .hero {
   width: 1600px;
   padding-left: 15px;
@@ -227,7 +235,13 @@ ul {
 
 /* <!-- company advantages --> */
 
+.company-bg {
+  padding-bottom: 0;
+  background: #f5f5f5;
+}
+
 .company-box {
+  background: #f5f5f5;
   /* outline: 5px solid tomato; */
 }
 
@@ -260,7 +274,13 @@ ul {
 
 /* <!-- what does the company do --> */
 
+.works-bg {
+  padding-bottom: 0;
+  background: #f5f5f5;
+}
+
 .works {
+  background: #f5f5f5;
   /* outline: 5px solid tomato; */
 }
 
@@ -291,6 +311,11 @@ ul {
 }
 
 /* <!-- our team --> */
+
+.team-bg {
+  padding-bottom: 0;
+  background: #f5f4fa;
+}
 
 .team-box {
   width: 1600px;
@@ -474,7 +499,12 @@ ul {
 
 /* <!--gallery--> */
 
+.gallery-bg {
+  background: #f5f5f5;
+}
+
 .gallery-box {
+  background: #f5f5f5;
   /* outline: 5px solid tomato; */
 }
 
@@ -499,24 +529,20 @@ ul {
 .gallery-border {
   background: var(--primary-white-color);
   border: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 
 .gallery-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  margin-left: 24px;
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 4px;
-  margin-right: 24px;
 }
 
 .gallery-text {
   font-size: 16px;
   line-height: 1.88;
   color: var(--title-text-color);
-  margin-left: 24px;
-  margin-top: 4px;
-  margin-bottom: 20px;
-  margin-right: 24px;
+  margin: 0;
 }

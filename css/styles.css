@@ -237,11 +237,11 @@ ul {
 
 .company-bg {
   padding-bottom: 0;
-  background-color: #f5f5f5;
+  background-color: var(--primary-white-color);
 }
 
 .company-box {
-  background-color: #f5f5f5;
+  background-color: var(--primary-white-color);
   /* outline: 5px solid tomato; */
 }
 
@@ -276,11 +276,11 @@ ul {
 
 .works-bg {
   padding-bottom: 0;
-  background-color: #f5f5f5;
+  background-color: var(--primary-white-color);
 }
 
 .works {
-  background-color: #f5f5f5;
+  background-color: var(--primary-white-color);
   /* outline: 5px solid tomato; */
 }
 
@@ -499,11 +499,11 @@ ul {
 /* <!--gallery--> */
 
 .gallery-bg {
-  background-color: #f5f5f5;
+  background-color: var(--primary-white-color);
 }
 
 .gallery-box {
-  background-color: #f5f5f5;
+  background-color: var(--primary-white-color);
   /* outline: 5px solid tomato; */
 }
 

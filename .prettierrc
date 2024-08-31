@@ -1,12 +1,12 @@
 {
-  "printWidth": 80, // max 80 chars in line, code is easy to read
-  "tabWidth": 2, // "visual width" of of the "tab"
-  "useTabs": false, // use spaces instead of tabs
-  "semi": true, // add ; when needed
-  "singleQuote": true, // '' for stings instead of ""
-  "trailingComma": "all", // add trailing commas in objects, arrays, etc.
-  "bracketSpacing": true, // import { some } ... instead of import {some} ...
-  "jsxBracketSameLine": false, // Place the closing bracket of JSX elements on a new line
-  "arrowParens": "avoid", // braces even for single param in arrow functions (a) => { }
-  "proseWrap": "always" // Wrap prose text to maintain formatting
+  "printWidth": 80, 
+  "tabWidth": 2, 
+  "useTabs": false, 
+  "semi": true, 
+  "singleQuote": true, 
+  "trailingComma": "all", 
+  "bracketSpacing": true, 
+  "jsxBracketSameLine": false, 
+  "arrowParens": "avoid", 
+  "proseWrap": "always" 
 }

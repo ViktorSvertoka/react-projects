@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.card {
+  width: 250px;
+  border: 1px lightgray solid;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 10px;
+}

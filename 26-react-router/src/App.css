@@ -6,6 +6,14 @@
   color: yellow;
 }
 
+.courseLink {
+  font-size: 25px;
+}
+
+.courseLink:hover {
+  text-decoration: underline;
+}
+
 a {
   color: wheat;
   font-size: 35px;

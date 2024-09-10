@@ -1,3 +1,5 @@
+import './Filter.css';
+
 const Filter = () => {
   return (
     <div className="app-block book-filter">

@@ -12,7 +12,7 @@ app.get('/random-book', (req, res) => {
   res.json(randomBook);
 });
 
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 4000; // http://localhost:4000/random-book
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
